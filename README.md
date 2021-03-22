@@ -1,4 +1,4 @@
-# Youtube to iTunes
+# <img width="28"  src="https://www.flaticon.com/svg/vstatic/svg/1384/1384060.svg?token=exp=1616389880~hmac=eda5618335e207f5fdfd92dd4cd5de15" alt="Youtube free icon" />Youtube To <img width="28" src ="https://www.flaticon.com/svg/vstatic/svg/1384/1384061.svg?token=exp=1616390009~hmac=73b8207a5c51db1e1981bb5dbf468a8a" alt="iTunes"/>iTunes
 
 this python code download a video from youtube as mp3 and add it to the iTunes Library.
 
@@ -13,5 +13,4 @@ python main.py
 
 # How it works
 
-I use the pytube Library to get the video from youtube using it URL and download the standard Quality of the video and get the thumbnail, the Library doesn't offer an mp3 file so i use the moviepy Library to convert the video to mp3 file format
-download the thumbnail using requests and finally add it to the mp3 file using eyed3 after all that the mp3 file moved to the iTunes music Library folder.
+I use the pytube Library to get the video from youtube using its URL, download the standard Quality of the video and get the thumbnail, the Library doesn't offer an mp3 file so I use the moviepy Library to convert the video to an mp3 file format after that, I downloaded the thumbnail using requests Library and finally add it to the mp3 file using eyed3 after all that the mp3 file moved to the iTunes Music Library folder which will sync it to iTunes.
