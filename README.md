@@ -1,6 +1,6 @@
-# <img width="28"  src="https://www.flaticon.com/svg/vstatic/svg/1384/1384060.svg?token=exp=1616389880~hmac=eda5618335e207f5fdfd92dd4cd5de15" alt="Youtube free icon" />Youtube To <img width="28" src ="https://www.flaticon.com/svg/vstatic/svg/1384/1384061.svg?token=exp=1616390009~hmac=73b8207a5c51db1e1981bb5dbf468a8a" alt="iTunes"/>iTunes
+# Youtube To iTunes
 
-this python code download a video from youtube as mp3 and add it to the iTunes Library.
+This python code download a video from <img width="15"  src="https://www.flaticon.com/svg/vstatic/svg/1384/1384060.svg?token=exp=1616389880~hmac=eda5618335e207f5fdfd92dd4cd5de15" alt="Youtube free icon" /> youtube as mp3 and add it to the <img width="15" src ="https://www.flaticon.com/svg/vstatic/svg/1384/1384061.svg?token=exp=1616390009~hmac=73b8207a5c51db1e1981bb5dbf468a8a" alt="iTunes"/>iTunes Library.
 
 # Install && Run
 
