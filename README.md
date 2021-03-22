@@ -5,7 +5,7 @@ This python code download a video from <img width="15"  src="https://www.flatico
 # Install && Run
 
 ```cmd
-git clone
+git clone https://github.com/abdullah-saadeddin/Youtube-To-iTunes.git
 cd youtube-to-iTunes
 pip install -r requirements.txt
 python main.py
