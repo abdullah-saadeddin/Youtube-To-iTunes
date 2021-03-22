@@ -7,6 +7,8 @@ import sys
 import eyed3
 from requests import get
 import os
+import arabic_reshaper
+from bidi.algorithm import get_display
 
 
 def main(ass):
@@ -14,7 +16,9 @@ def main(ass):
     image = yt.thumbnail_url
     yt = yt.streams.filter(progressive=True, file_extension="mp4")
     fileName = yt.first().default_filename
-    print("Start Download: " + fileName)
+    reshaped_text = arabic_reshaper.reshape(fileName)    
+    bidi_text = get_display(reshaped_text)          
+    print("Start Download: " + bidi_text)
     yt.first().download()
     sleep(2)
     print("Finish Download the video")
@@ -40,10 +44,10 @@ def main(ass):
 if __name__ == "__main__":
     while True:
         i = input("Enter Video Url or E to exit: ")
-        if i != 'e' or i != 'E':
+        if i == 'e' or i == 'E':
+            break
+        else:
             try:
                 main(i)
             except:
                 pass
-        else:
-            break
